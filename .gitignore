@@ -1,0 +1,33 @@
+# Ignore the virtual environment directory
+myenv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore any temporary files created by editors
+*.swp
+*.swo
+*~
+
+# Ignore temporary files created by the operating system
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Ignore local settings files
+.env
+
+# Ignore CSV files containing sensitive data
+products.csv
+cleaned_product_reviews.csv
